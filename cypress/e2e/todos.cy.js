@@ -11,7 +11,7 @@ describe('Interacting with Todo', () => {
     cy.get('h2').should('have.text', "Todos 3000!")
   })
 
-  it('Can add new todos through the input field and add button, newest on top', () => {
+  it('Can add new todos through the input field and add button, latest on top', () => {
 
     const testSentence1 = "Diska disken"
     const testSentence2 = "Städa köket"
